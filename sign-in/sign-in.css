@@ -6,6 +6,7 @@ body {
 .form-signin {
   max-width: 330px;
   padding: 1rem;
+  text-align: center;
 }
 
 .form-signin .form-floating:focus-within {
@@ -23,3 +24,22 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.form-check {
+  display : flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-check-input {
+  margin-right : 5px;
+  position: relative;
+  top : -2px;
+}
+
+.btn-login {
+  background-color : #ffbb34;
+  border : none;
+  color : black;
+}
+
